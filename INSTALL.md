@@ -4,6 +4,7 @@ trying to configure logparser for exim.
 You should have some nice CPU-graphs in chronograf before turning to exim.
 
 # configuration on Debian
+
 telegraf won't have permission to read /var/log/exim4/mainlog.
 There are several options to fix it, like adding the user "telegraf" to
 group "adm".
